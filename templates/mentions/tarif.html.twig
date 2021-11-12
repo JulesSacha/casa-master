@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LouerController!{% endblock %}
+
+{% block body %}
+
+
+<div class="container">
+    <div class="tarif">
+        <h1>Grille Tarifaire</h1>
+        <p>        NOS HONORAIRES TTC (TVA à 20%).
+        </p>
+     
+            <table>
+                <h2> TRANSACTION-VENTE
+                </h2>
+                <tbody>
+                  
+                    <tr>
+                        <td> Parking ou garage
+
+                        </td>
+                        <td> Forfait 1 500€ TTC
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> De 0€ à 99 999€
+                        </td>
+                        <td> Forfait 6 000€ TTC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> De 100 000€ à 149 999€
+                        </td>
+                        <td> 7% TTC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> De 150 000€ à 249 999€
+                        </td>
+                        <td> 6% TTC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> De 250 000€ à 349 999€
+                        </td>
+                        <td> 5% TTC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Au-delà de 350 000€
+                        </td>
+                        <td> 4% TTC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Terrains et immobiliers professionnels
+
+                        </td>
+                        <td> 10% TTC avec forfait minimal de 5 000€ TTC
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>TRANSACTION - LOCATION</h2>
+            <p> Application du barème de la loi Alur selon les zones géographiques
+            </p>
+
+
+            </div>
+    </div>
+    {% endblock %}
